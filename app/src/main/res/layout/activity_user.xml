@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/purple"
+    tools:context=".ui.UserActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lets_begin"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:fontFamily="@font/cabin"
+        android:textSize="30sp"
+        android:layout_marginTop="64dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/your_name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/cabin"
+        android:layout_gravity="center_vertical"
+        />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:backgroundTint="@color/light_purple"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
